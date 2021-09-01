@@ -25,7 +25,7 @@ clipboard.addEventListener('click', () => {
 	textarea.select();
 	document.execCommand('copy');
 	textarea.remove();
-	alert('Password copied to clipboard');
+	alert('Senha copiada para a área de transferência');
 });
 
 generate.addEventListener('click', () => {
@@ -77,10 +77,6 @@ function getRandomSymbol() {
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
-
-
-
-
 
 
 
